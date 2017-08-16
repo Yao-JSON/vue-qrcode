@@ -1,0 +1,72 @@
+@import "../../common/stylus/mixin.styl";
+img
+  display inline-block
+  max-width 100%
+.me
+  position fixed
+  top 0
+  bottom 0px
+  width 100%
+  .back-wrapper
+    position fixed
+    top 0
+    left 0
+    width 100%
+    z-index 100
+  .content-wrapper
+    position fixed
+    top 40px
+    left 0
+    width 100%
+    bottom 0
+    .content
+      .header
+        font-size 0px
+        display flex
+        padding 9px 15px
+        line-height 60px
+        justify-content space-between
+        border-after-1px(#ebebeb)
+        .title
+          color #494949
+          font-size 15px
+        .img-wrapper
+          font-size 0px
+          img
+            width 60px
+            height 60px
+            border-radius 4px
+            vertical-align top
+            border 1px solid #ebebeb
+          .icon-right
+            display inline-block
+            color #b8b8b8
+            vertical-align top
+            line-height 60px
+            font-size 20px
+      .list-wrapper
+        .list
+          display flex
+          padding 0 15px
+          font-size 0px
+          height 40px
+          line-height 40px
+          justify-content space-between
+          border-after-1px(#ebebeb)
+          &:last-child:after
+            border 0
+          .title
+            color #494949
+            font-size 15px
+          .value
+            span
+              font-size 15px
+              display inline-block
+              color #b8b8b8
+              line-height 40px
+              vertical-align top
+            .text
+              vertical-align top
+            .icon-right
+              font-size 20px
+

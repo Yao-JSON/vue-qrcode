@@ -1,0 +1,17 @@
+{
+  "personDetail": {
+    "name": "农机",
+    "img": "http://gmc.njztc.com/plug-in/login/images/logo.jpg",
+    "phone": "18000000000",
+    "tell":"123-1234567",
+    "email":"12345@123.com",
+    "fax":"8659-85125379",
+    "qq":"123456",
+    "weixin":"123456",
+    "group":"西藏监理站",
+    "department":"政务部",
+    "duty":"职务",
+    "job":"",
+    "address":"河南郑州金水区"
+  }
+}
