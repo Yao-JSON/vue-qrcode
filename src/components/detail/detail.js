@@ -74,12 +74,12 @@ export default {
     },
     _showPerson () {
       this.personShow = true;
-      this.scroll.scrollTo(0, 0);
-      this.scroll.disable();
     },
     _goBack () {
       this.personShow = false;
-      this.scroll.enable();
+    },
+    _exportCard () {
+
     }
   },
   components: { Back, Split, Person }

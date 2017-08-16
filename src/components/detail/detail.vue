@@ -43,6 +43,12 @@
             </div>
           </li>
         </ul>
+        <!-- 按钮 -->
+        <div class="export-wrapper">
+          <div class="export-btn" @click="_exportCard">
+            <span class="text">加入通讯录</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
